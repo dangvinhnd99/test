@@ -10,3 +10,8 @@ module "vpc" {
   public_subnet     = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
   availability_zone = ["us-west-2a", "us-west-2b", "us-west-2c"]
 }
+
+
+resource "aws_ec2" "vinh" {
+  
+}
